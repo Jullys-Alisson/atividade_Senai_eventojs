@@ -1,6 +1,6 @@
-let idade = 19
+let data = 14/10/2021
+let idade = 17
 let pessoas 
-let data = 15/10/2021
 
 if (data < 13/10/2021) {
     console.log ("Cadastro não permitido, data ultrapassada")  
@@ -14,10 +14,13 @@ if (idade <18) {
     console.log ("Cadastro permitido")
 }
 do {
-    console.log ("cadastrando",pessoas)
+    console.log ("cadastrando")
     pessoas++
 } 
 while (pessoas <=100) {
     console.log ("Cadastro permitido")
+    if (pessoas >100) {
+    console.log ("Cadastro não permitido")
+    }
 }
 
